@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title> First example</title>
+</head>
+<body>
+    <a href="Basic HTML.html">Go to Home</a>
+    <ul>
+        <li>
+            <a href="Basic HTML.html">Home Page</a>
+        </li>
+        <li>
+            <a href="Page 2.html">Page 2</a>
+        </li>
+        <li>
+            <a href="forms.html">Forms</a>
+        </li>
+    </ul>   
+    
+    <form
+     action="mailto:uiertg@gmailcom"
+     method="post" 
+      enctype="text/plain">
+      <h1>Please fill in this form </h1>
+    
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="First Name"> First name</label>
+                <input type="text" id=" First Name " name="First Name" placeholder="Joe">
+            </div>
+            <div>
+                <label for="Last Name"> Last name</label>
+                <input type="text" id=" Last Name " name="Last Name" placeholder="Magro"> 
+            </div>
+            <div>
+                <p>Age group </p>
+                <input type="radio"  id="age1" name="age" value="1">
+                <label for="age1"> 15-18</label>
+                <br>
+                <input type="radio"  id="age2" name="age" value="2">
+                <label for="age2"> 19-25</label>
+                <br>
+                <input type="radio"  id="age3" name="age" value="3">
+                <label for="age3"> 26-40</label>
+                <br>
+                <input type="radio"  id="age4" name="age" value="4">
+                <label for="age4"> 41+</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <div>
+                <label for=""></label>
+                <input type="email" name="email" id="email"placeholder="uiertg@gmailcom">
+            </div>
+            <div>
+                <label for=""></label>
+                <input type="tel" name="phone" id="phone"placeholder="123445678" pattern="[0-9]{4} [0-9]{4}">
+            </div>
+            <div>
+                
+                <input type="checkbox" name="contact" id="contact"> 
+                <label for="contact"> Contact me abbout offers</label>
+            </div>
+
+        </fieldset>
+        <fieldset>
+<legend> Message Details</legend>
+<div>
+    <label for="Departament"></label>
+    <select name="departament" id="departament">
+    <option value="disabled selected">Please select a departament</option>
+    <option value="2">Customer support</option>
+    <option value="3">Technical support</option>
+</select>
+</div>
+<div>
+    <label for="subject">Subject</label>
+    <input type="text" name="subject" id="subject" placeholder="Please help">
+</div>
+<div>
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10"> I have a problem with my account</textarea>
+    s
+        
+</div>
+
+        </fieldset>
+        <div>
+            <button type ="reset" class="cancelbtn">Cancel</button>
+            <button type="submit">Submit</button>
+           
+        </div>
+    </form>
+</body>
+</html>

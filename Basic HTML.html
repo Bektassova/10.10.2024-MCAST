@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title> First example</title>
+</head>
+<body>
+  <a href="Page 2.html">Go to second Page</a>
+  <a href="forms.html">Go to forms Page</a>
+    <p class="paragtaphClass"></p>
+
+    
+ <h1 class="mainTitle">Title</h1>   
+ 
+ <h2 style="text-align: center;">Sub Title</h2>
+ <p class="themeColour" class="p"> This is my first paragraph</p>
+ <p class="paragtaphClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Dolorem corporis voluptas quos aut expedita ducimus odit in? Beatae nesciunt neque odit ea laboriosam possimus et, 
+    officia explicabo nemo itaque distinctio!</p>
+    <img id="banner" src="banner.jpg" alt="Banner">
+    <p class="paragtaphClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Dolorem corporis voluptas quos aut expedita ducimus odit in? Beatae nesciunt neque odit ea laboriosam possimus et, 
+    officia explicabo nemo itaque distinctio!</p>
+    <img src="images/voda.jpg" alt="Vodopad" height="400">
+
+    <Please for="characterList">Please select your favorite character</label>
+    <select name="characterList" id="characterList">
+    <option value="1"> Shadwheater</option>
+    <option value="2"> Lae-zel</option>
+    <option value="3"> Wyll</option>
+</select>
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="container mt-3">
+    <h2>Checkboxes</h2>
+    <p>To style a checkbox, use a container element with a .form-check class, and add .form-check-label to labels, and .form-check-input to the input with type="checkbox".</p>
+    <p>The form below contains three checkboxes. The first option is checked by default, and the last option is disabled:</p>
+    <form action="/action_page.php">
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+        <label class="form-check-label" for="check1">Option 1</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+        <label class="form-check-label" for="check2">Option 2</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" disabled>
+        <label class="form-check-label">Option 3</label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </div>
+
+<div class="container mt-3">
+  <h2>Radio buttons</h2>
+  <p>The form below contains three radio buttons. The first option is checked by default, and the last option is disabled:</p>
+  <form action="/action_page.php">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+      <label class="form-check-label" for="radio1">Option 1</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+      <label class="form-check-label" for="radio2">Option 2</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" disabled>
+      <label class="form-check-label">Option 3</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+
+</body>
+</html>
